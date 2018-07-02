@@ -4,7 +4,7 @@ url <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR
 download.file(url, file.path(path, "projectfiles.zip"))
 unzip(zipfile = "projectfiles.zip")
 files<-list.files(path, recursive=TRUE)
-
+## Step 2: Read data files
 ## 1. Read the Activity files
 act_test <- read.table(file.path(path, "UCI HAR Dataset/test" , "Y_test.txt" ),header = FALSE)
 act_train <- read.table(file.path(path, "UCI HAR Dataset/train", "Y_train.txt"),header = FALSE)

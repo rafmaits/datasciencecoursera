@@ -1,10 +1,7 @@
 ## Getting and Cleaning Data Project
 Author: Abdulraof K. Maitumama
 
-
-## Getting and Cleaning Data Course Project
-
-This Repository Contains the following files:
+### This Repository Contains the following files:
 
 1. Submitted data set -> tidydata.txt
 2. Run Analysis script -> run_analysis.R

@@ -1,8 +1,8 @@
-Getting and Cleaning Data Project
+## Getting and Cleaning Data Project
 Author: Abdulraof K. Maitumama
 
 
-Getting and Cleaning Data Course Project
+## Getting and Cleaning Data Course Project
 
 This Repository Contains the following files:
 

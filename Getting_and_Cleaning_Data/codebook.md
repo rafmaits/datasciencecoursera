@@ -1,9 +1,10 @@
-Getting and Cleaning Data Project
+# Getting and Cleaning Data Project
+________________________________________________________________________
 Author: Abdulraof K. Maitumama
 
-##CODEBOOK
+# CODEBOOK
 
-Data Set Information:
+## Data Set Information:
 
 The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments have been video-recorded to label the data manually. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data. 
 
@@ -24,90 +25,92 @@ For each record in the dataset it is provided:
 - A 561-feature vector with time and frequency domain variables. 
 - Its activity label. 
 - An identifier of the subject who carried out the experiment.
-
-Codebook for tidyData
-
-
+- 
+_______________
+## Codebook for tidyData
 Data report overview
 The dataset examined has the following dimensions:
 Feature	Result
 Number of observations	180
 Number of variables	68
-Codebook summary table
-Label	Variable	Class	# unique values	Missing	Description
-Subject  integer	30	0.00 %	
-Activity integer	6	0.00 %	
-timeBodyAccelerometer-mean()-X	numeric	180	0.00 %	
-timeBodyAccelerometer-mean()-Y	numeric	180	0.00 %	
-timeBodyAccelerometer-mean()-Z	numeric	180	0.00 %	
-timeBodyAccelerometer-std()-X	numeric	180	0.00 %	
-timeBodyAccelerometer-std()-Y	numeric	180	0.00 %	
-timeBodyAccelerometer-std()-Z	numeric	180	0.00 %	
-timeGravityAccelerometer-mean()-X	numeric	180	0.00 %	
-timeGravityAccelerometer-mean()-Y	numeric	180	0.00 %	
-timeGravityAccelerometer-mean()-Z	numeric	180	0.00 %	
-timeGravityAccelerometer-std()-X	numeric	180	0.00 %	
-timeGravityAccelerometer-std()-Y	numeric	180	0.00 %	
-timeGravityAccelerometer-std()-Z	numeric	180	0.00 %	
-timeBodyAccelerometerJerk-mean()-X	numeric	180	0.00 %	
-timeBodyAccelerometerJerk-mean()-Y	numeric	180	0.00 %	
-timeBodyAccelerometerJerk-mean()-Z	numeric	180	0.00 %	
-timeBodyAccelerometerJerk-std()-X	numeric	180	0.00 %	
-timeBodyAccelerometerJerk-std()-Y	numeric	180	0.00 %	
-timeBodyAccelerometerJerk-std()-Z	numeric	180	0.00 %	
-timeBodyGyroscope-mean()-X	numeric	180	0.00 %	
-timeBodyGyroscope-mean()-Y	numeric	180	0.00 %	
-timeBodyGyroscope-mean()-Z	numeric	180	0.00 %	
-timeBodyGyroscope-std()-X	numeric	180	0.00 %	
-timeBodyGyroscope-std()-Y	numeric	180	0.00 %	
-timeBodyGyroscope-std()-Z	numeric	180	0.00 %	
-timeBodyGyroscopeJerk-mean()-X	numeric	180	0.00 %	
-timeBodyGyroscopeJerk-mean()-Y	numeric	180	0.00 %	
-timeBodyGyroscopeJerk-mean()-Z	numeric	180	0.00 %	
-timeBodyGyroscopeJerk-std()-X	numeric	180	0.00 %	
-timeBodyGyroscopeJerk-std()-Y	numeric	180	0.00 %	
-timeBodyGyroscopeJerk-std()-Z	numeric	180	0.00 %	
-timeBodyAccelerometerMagnitude-mean()	numeric	180	0.00 %	
-timeBodyAccelerometerMagnitude-std()	numeric	180	0.00 %	
-timeGravityAccelerometerMagnitude-mean()	numeric	180	0.00 %	
-timeGravityAccelerometerMagnitude-std()	numeric	180	0.00 %	
-timeBodyAccelerometerJerkMagnitude-mean()	numeric	180	0.00 %	
-timeBodyAccelerometerJerkMagnitude-std()	numeric	180	0.00 %	
-timeBodyGyroscopeMagnitude-mean()	numeric	180	0.00 %	
-timeBodyGyroscopeMagnitude-std()	numeric	180	0.00 %	
-timeBodyGyroscopeJerkMagnitude-mean()	numeric	180	0.00 %	
-timeBodyGyroscopeJerkMagnitude-std()	numeric	180	0.00 %	
-frequencyBodyAccelerometer-mean()-X	numeric	180	0.00 %	
-frequencyBodyAccelerometer-mean()-Y	numeric	180	0.00 %	
-frequencyBodyAccelerometer-mean()-Z	numeric	180	0.00 %	
-frequencyBodyAccelerometer-std()-X	numeric	180	0.00 %	
-frequencyBodyAccelerometer-std()-Y	numeric	180	0.00 %	
-frequencyBodyAccelerometer-std()-Z	numeric	180	0.00 %	
-frequencyBodyAccelerometerJerk-mean()-X	numeric	180	0.00 %	
-frequencyBodyAccelerometerJerk-mean()-Y	numeric	180	0.00 %	
-frequencyBodyAccelerometerJerk-mean()-Z	numeric	180	0.00 %	
-frequencyBodyAccelerometerJerk-std()-X	numeric	180	0.00 %	
-frequencyBodyAccelerometerJerk-std()-Y	numeric	180	0.00 %	
-frequencyBodyAccelerometerJerk-std()-Z	numeric	180	0.00 %	
-frequencyBodyGyroscope-mean()-X	numeric	180	0.00 %	
-frequencyBodyGyroscope-mean()-Y	numeric	180	0.00 %	
-frequencyBodyGyroscope-mean()-Z	numeric	180	0.00 %	
-frequencyBodyGyroscope-std()-X	numeric	180	0.00 %	
-frequencyBodyGyroscope-std()-Y	numeric	180	0.00 %	
-frequencyBodyGyroscope-std()-Z	numeric	180	0.00 %	
-frequencyBodyAccelerometerMagnitude-mean()	numeric	180	0.00 %	
-frequencyBodyAccelerometerMagnitude-std()	numeric	180	0.00 %	
-frequencyBodyAccelerometerJerkMagnitude-mean()	numeric	180	0.00 %	
-frequencyBodyAccelerometerJerkMagnitude-std()	numeric	180	0.00 %	
-frequencyBodyGyroscopeMagnitude-mean()	numeric	180	0.00 %	
-frequencyBodyGyroscopeMagnitude-std()	numeric	180	0.00 %	
-frequencyBodyGyroscopeJerkMagnitude-mean()	numeric	180	0.00 %	
-frequencyBodyGyroscopeJerkMagnitude-std()
-numeric	180	0.00 %	
+_______________
+## Codebook summary table
 
-Variable list
-Subject
-Feature	Result
+
+Label | Variable | Class   | # unique values | Missing | Description
+----- | -------- | ------- | --------------- | ------- | ----------
+  .    | Subject  | integer |	30 | 0.00 %	
+   .   | Activity |  integer	| 6	| 0.00 %	
+  .    | timeBodyAccelerometer-mean()-X	| numeric |	180 |	0.00 %	
+  .    | timeBodyAccelerometer-mean()-Y	| numeric |	180 |	0.00 %	
+ .     | timeBodyAccelerometer-mean()-Z	| numeric	| 180	| 0.00 %	
+ .     | timeBodyAccelerometer-std()-X	| numeric	| 180	| 0.00 %	
+  .    | timeBodyAccelerometer-std()-Y	| numeric	| 180	| 0.00 %	
+   .   | timeBodyAccelerometer-std()-Z	| numeric	| 180	| 0.00 %	
+  .    | timeGravityAccelerometer-mean()-X	| numeric	| 180	| 0.00 %	
+.| timeGravityAccelerometer-mean()-Y |	numeric	| 180 |	0.00 %	
+.| timeGravityAccelerometer-mean()-Z|	numeric	| 180 |	0.00 %	
+.| timeGravityAccelerometer-std()-X	| numeric	| 180 |	0.00 %	
+.| timeGravityAccelerometer-std()-Y	| numeric	| 180	| 0.00 %	
+.| timeGravityAccelerometer-std()-Z	| numeric	| 180	| 0.00 %	
+.| timeBodyAccelerometerJerk-mean()-X	| numeric	| 180	| 0.00 %	
+.| timeBodyAccelerometerJerk-mean()-Y	| numeric	| 180	| 0.00 %	
+.| timeBodyAccelerometerJerk-mean()-Z	| numeric	| 180	| 0.00 %	
+.| timeBodyAccelerometerJerk-std()-X	| numeric	| 180	| 0.00 %	
+.| timeBodyAccelerometerJerk-std()-Y	| numeric	| 180	| 0.00 %	
+.| timeBodyAccelerometerJerk-std()-Z	| numeric	| 180	| 0.00 %	
+.| timeBodyGyroscope-mean()-X	| numeric	 | 180 |	0.00 %	
+.| timeBodyGyroscope-mean()-Y	| numeric |	180 |	0.00 %	
+.| timeBodyGyroscope-mean()-Z	| numeric |	180 |	0.00 %	
+.| timeBodyGyroscope-std()-X	| numeric |	180	| 0.00 %	
+.| timeBodyGyroscope-std()-Y	| numeric |	180	| 0.00 %	
+.| timeBodyGyroscope-std()-Z	| numeric |	180 |	0.00 %	
+.|timeBodyGyroscopeJerk-mean()-X	|numeric | 	180| 	0.00 %	
+.|timeBodyGyroscopeJerk-mean()-Y	|numeric | 	180	| 0.00 %	
+.|timeBodyGyroscopeJerk-mean()-Z	|numeric | 	180 | 	0.00 %	
+.|timeBodyGyroscopeJerk-std()-X	|numeric|	180	|0.00 %	
+.|timeBodyGyroscopeJerk-std()-Y	|numeric	|180|	0.00 %	
+.|timeBodyGyroscopeJerk-std()-Z	|numeric	|180|	0.00 %	
+.|timeBodyAccelerometerMagnitude-mean()	|numeric	|180	|0.00 %	
+.|timeBodyAccelerometerMagnitude-std()	|numeric	|180	|0.00 %	
+.|timeGravityAccelerometerMagnitude-mean()	|numeric	|180|	0.00 %	
+.|timeGravityAccelerometerMagnitude-std()	|numeric	|180	|0.00 %	
+.|timeBodyAccelerometerJerkMagnitude-mean()	|numeric	|180|	0.00 %	
+.|timeBodyAccelerometerJerkMagnitude-std()	|numeric	|180	|0.00 %	
+.|timeBodyGyroscopeMagnitude-mean()	|numeric	|180|	0.00 %	
+.|timeBodyGyroscopeMagnitude-std()	|numeric	|180	|0.00 %	
+.|timeBodyGyroscopeJerkMagnitude-mean()	|numeric|	180	|0.00 %	
+.|timeBodyGyroscopeJerkMagnitude-std()	|numeric|	180	|0.00 %	
+.|frequencyBodyAccelerometer-mean()-X	|numeric|	180	|0.00 %	
+.|frequencyBodyAccelerometer-mean()-Y	|numeric|	180	|0.00 %	
+.|frequencyBodyAccelerometer-mean()-Z	|numeric|	180	|0.00 %	
+.|frequencyBodyAccelerometer-std()-X	|numeric|	180	|0.00 %	
+.|frequencyBodyAccelerometer-std()-Y	|numeric|	180|	0.00 %	
+.|frequencyBodyAccelerometer-std()-Z	|numeric	|180	|0.00 %	
+.|frequencyBodyAccelerometerJerk-mean()-X	| numeric	|180|	0.00 %	
+.|frequencyBodyAccelerometerJerk-mean()-Y | 	numeric	|180|	0.00 %	
+.|frequencyBodyAccelerometerJerk-mean()-Z	| numeric	|180|	0.00 %	
+.|frequencyBodyAccelerometerJerk-std()-X	|numeric|	180	| 0.00 %	
+.|frequencyBodyAccelerometerJerk-std()-Y	|numeric|	180 | 	0.00 %	
+.|frequencyBodyAccelerometerJerk-std()-Z	|numeric	|180	|0.00 %	
+.|frequencyBodyGyroscope-mean()-X	|numeric	|180	|0.00 %	
+.|frequencyBodyGyroscope-mean()-Y	|numeric	|180	|0.00 %	
+.|frequencyBodyGyroscope-mean()-Z	|numeric	|180	|0.00 %	
+.|frequencyBodyGyroscope-std()-X	|numeric	|180	|0.00 %	
+.|frequencyBodyGyroscope-std()-Y	|numeric	|180	|0.00 %	
+.|frequencyBodyGyroscope-std()-Z	|numeric	|180	|0.00 %	
+.|frequencyBodyAccelerometerMagnitude-mean()	|numeric	|180	|0.00 %	
+.|frequencyBodyAccelerometerMagnitude-std()	|numeric	|180	|0.00 %	
+.|frequencyBodyAccelerometerJerkMagnitude-mean()	|numeric	|180	|0.00 %	
+.|frequencyBodyAccelerometerJerkMagnitude-std()	|numeric	|180	|0.00 %	
+.|frequencyBodyGyroscopeMagnitude-mean()	|numeric	|180	|0.00 %	
+.|frequencyBodyGyroscopeMagnitude-std()	|numeric	|180	|0.00 %	
+.|frequencyBodyGyroscopeJerkMagnitude-mean()|	numeric	|180	|0.00 %	
+.|frequencyBodyGyroscopeJerkMagnitude-std() |numeric	|180	|0.00 %	
+
+# Variable list
+### Subject
+### Feature	Result
 Variable type	integer
 Number of missing obs.	0 (0 %)
 Number of unique values	30
